@@ -1,0 +1,59 @@
+.aboutMeContainer {
+  justify-content: center;
+ 
+  color: aliceblue;
+  opacity: 80%;
+  text-align: center;
+  align-items: center;
+
+  /* height: 100vh; */
+  width: 100vw;
+  background: rgb(1,6,20);
+background: linear-gradient(90deg, rgba(1,6,20,1) 0%, rgba(0,1,1,1) 100%);
+  
+  /* font-size: 2rem; */
+}
+p {
+  font-size: 2rem;
+  padding: 2rem 8rem;
+}
+.heading {
+  padding-top: 2rem;
+  font-size: 4rem;
+  margin: 2rem 0rem;
+}
+
+.aboutMeParagraph {
+  box-sizing: border-box;
+  border-radius: 1rem;
+  margin-bottom: 8rem;
+
+  margin-left: 10%;
+  width: 80vw;
+  height: auto;
+  background-color: rgb(15, 37, 55);
+  opacity: 50%;
+}
+
+@media screen and (max-width: 640px) {
+  p {
+    padding: 2rem 4rem;
+    font-size: 1.5rem;
+  }
+  .heading {
+    padding-top: 6rem;
+    font-size: 3rem;
+    margin: 4rem 0rem;
+  }
+
+  .aboutMeParagraph {
+    border-radius: 1rem;
+
+    margin-left: 10%;
+    width: 80vw;
+    height: auto;
+  }
+}
+
+
+

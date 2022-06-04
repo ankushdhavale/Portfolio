@@ -1,0 +1,41 @@
+.header{
+    position: fixed;
+    width: 100vw;
+    opacity: 70%;
+    padding-left: 5%;
+    background-color: black;
+    display: flex;
+    flex-direction: row;
+    
+    
+}
+.pgLinkContainer{
+    padding: 1rem 2rem ;
+    width: 100%;
+}
+.header a{
+    align-items: center;
+    text-align: center;
+    color: aliceblue;
+    text-decoration: none;
+    margin:  1rem 2rem;
+}
+.header .pgLinks :hover {
+    padding-bottom: 12px;
+    border-bottom: 3px solid yellow;
+}
+.pgLinks .active{
+    border-bottom: 3px solid yellow;
+}
+
+@media screen and (max-width: 680px){
+    .pgLinkContainer{
+        padding: .5rem 1rem ;
+        width: 100%;
+    }
+
+    .header{
+        font-size: 1rem;
+        margin: .5rem 1rem;
+    }
+}

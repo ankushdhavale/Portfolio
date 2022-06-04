@@ -1,0 +1,121 @@
+.contactMeContainer {
+  background: rgb(4, 0, 11);
+  background: linear-gradient(
+    90deg,
+    rgba(4, 0, 11, 1) 26%,
+    rgba(6, 42, 86, 1) 62%,
+    rgba(8, 55, 100, 1) 77%,
+    rgba(9, 82, 135, 1) 92%,
+    rgba(10, 138, 190, 1) 100%
+  );
+  background-color: rgb(124, 86, 86);
+
+  width: 100vw;
+  height: 100vh;
+}
+.contactMeForm {
+  box-shadow: 0rem 2rem 4rem #090202;
+  background: rgb(21, 39, 91);
+  background: linear-gradient(
+    90deg,
+    rgba(21, 39, 91, 1) 7%,
+    rgba(15, 55, 120, 1) 39%,
+    rgba(7, 61, 118, 1) 60%,
+    rgba(8, 76, 132, 1) 75%,
+    rgba(10, 138, 190, 1) 100%
+  );
+  background-color: #085b9b;
+  padding-top: 1rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  width: 80%;
+  margin-left: 10%;
+  border-radius: 2rem;
+  padding-bottom: 2rem;
+  opacity: 70%;
+}
+
+.inputs {
+  border-radius: 2rem;
+  font-size: 1.2rem;
+  padding: 0.7rem 2rem;
+  text-align: center;
+  width: 30rem;
+  margin: 1rem;
+}
+
+.submit-btn {
+  color: rgb(8, 17, 25);
+  transition: all 0.5s;
+  margin-top: 1rem;
+  border-radius: 2rem;
+  padding: 0.5rem 2rem;
+}
+.submit-btn:hover {
+  background-color: rgb(67, 75, 234);
+  font-weight: 900;
+  letter-spacing: 10px;
+  border: 7px solid #150606;
+}
+a::before {
+  content: "";
+  background-color: white;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 50px;
+  position: absolute;
+  transform: translate(-100%) rotate(45deg);
+  transition: all 0.3s;
+}
+
+.contactMeHeading {
+  padding-top: 1rem;
+  color: aliceblue;
+  font-size: 3rem;
+}
+
+@media screen and (max-width: 640px) {
+  .contactMeForm {
+    margin-top: 10%;
+    width: 90%;
+    margin-left: 5%;
+    overflow: hidden;
+  }
+  .inputs {
+    width: 90%;
+  }
+  .contactMeHeading{
+      
+      padding: 5rem;
+  }
+  .contactMeHeading p{
+      
+      font-size: 4rem;
+  }
+  
+}
+.message {
+  height: 8rem;
+}
+@media screen and (max-width: 241px) {
+  .contactMeForm {
+    margin-top: 2%;
+    
+  }
+  .inputs {
+    width: 90%;
+  }
+  .contactMeHeading{
+      
+      padding: 1rem;
+  }
+  .contactMeHeading p{
+      
+      font-size: 1rem;
+  }
+  
+}
+
