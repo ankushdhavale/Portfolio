@@ -1,136 +1,118 @@
-.profile-container{
-    height: 100vh;
-    width: 100vw;
-    display: flex;
-    align-items: center;
-    text-align: center;
-    justify-content: center;
-    font-size: 1rem;
-    min-height: fit-content;
-    /* background-image: url('../../assets/Home/bg.jpg'); */
+.profile-container {
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  font-size: 1rem;
+  min-height: fit-content;
+  /* background-image: url('../../assets/Home/bg.jpg'); */
 }
-.profile-parent{
-    
-    
-    display: flex;
-    align-items: center;
-    color: aliceblue;
+.profile-parent {
+  display: flex;
+  align-items: center;
+  color: aliceblue;
 }
 
-.profile-details-name{
-    font-size: 24px;
-    font-family: "Poppins SemiBold";
+.profile-details-name {
+  font-size: 24px;
+  font-family: "Poppins SemiBold";
 }
-.profile-details-role{
-    
-    display: flex;
-    flex-direction: column;
-    margin: 14px 0 24px 0;
-}
-
-.profile-details-role h1{
-    font-size:40px ;
-    font-family: cursive;
+.profile-details-role {
+  display: flex;
+  flex-direction: column;
+  margin: 14px 0 24px 0;
 }
 
-
-
-
-.resume-button{
-
-    padding: 1rem 1.5rem ;
-    border-radius: .5rem;
-    opacity: 30%;
-    
-    background-color: aqua;
-}
-.resume-button:hover{
-
-    
-    opacity: 60%;
-    
-    background-color: aqua;
-    box-shadow:0rem 5rem 10rem #050214;
+.profile-details-role h1 {
+  font-size: 40px;
+  font-family: cursive;
 }
 
-.profile-role-tagline{
-    font-size: 19px;
-    margin: 5px 0 0 0;
-    font-family: "Poppins Light";
+.resume-button {
+  padding: 1rem 1.5rem;
+  border-radius: 0.5rem;
+  opacity: 70%;
+
+  background-color: aqua;
+}
+.resume-button:hover {
+  opacity: 100%;
+
+  background-color: aqua;
+  box-shadow: 0rem 5rem 10rem #050214;
 }
 
-.colz-icon{
-    justify-content: space-evenly;
+.profile-role-tagline {
+  font-size: 19px;
+  margin: 5px 0 0 0;
+  font-family: "Poppins Light";
 }
 
-.icons{
-    color: rgb(81, 147, 147);
-    padding: 1rem 1rem;
-    font-size: 1.5rem;
-}
-.icons:hover{
-    opacity: 70%;
-    color:  rgb(65, 138, 138);
-    
+.colz-icon {
+  justify-content: space-evenly;
 }
 
-.heroBGVideoWrapper{
-    height: 100vh;
-    width: 100vw;
-    position: absolute;
-    top: 0;
-    left: 0;
-    z-index: -1;
-    
-    object-fit: cover;
-
+.icons {
+  color: rgb(207, 208, 234);
+  padding: 1rem 1rem;
+  font-size: 1.5rem;
 }
-
-.vid-container{
-    height: 100%;
-    width: 100%;
+.icons:hover {
+  opacity: 70%;
+  color: rgb(65, 138, 138);
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 .heroBGVideoWrapper {
-    width: 100%;
-    height: 100vh;
-    position: absolute;
-    z-index: -99;
-    top: 0;
-    overflow: hidden;
+  height: 100vh;
+  width: 100vw;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1;
+
+  object-fit: cover;
 }
 
-.heroBGVideo{
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
+.vid-container {
+  height: 100%;
+  width: 100%;
+}
+
+@media screen and (max-width: 640px) {
+  .profile-parent {
+    font-size: 2rem;
+  }
+  .profile-details-name {
+    font-size: 4rem;
+  }
+
+  .profile-details-role h1 {
+    font-size: 70px;
+  }
+  .profile-role-tagline {
+    font-size: 4rem;
+    
+  }
+  .icons {
+   
+    padding: 2rem 2rem;
+    font-size: 4rem;
+  }
+}
+
+.heroBGVideoWrapper {
+  width: 100%;
+  height: 100vh;
+  position: absolute;
+  z-index: -99;
+  top: 0;
+  overflow: hidden;
+}
+
+.heroBGVideo {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
 }
