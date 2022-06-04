@@ -144,6 +144,9 @@
    html{
      font-size: 45%;
    }
+   .mySkillsHeading{
+     font-size: 4rem;
+   }
   .iconAndSkillsContainer {
     justify-content: center;
     padding: 2rem 4rem;
@@ -164,6 +167,7 @@
   .actualSkillsCOntainer {
     margin-left: 20%;
     margin-top: 2rem;
+    font-size: 3rem;
   }
   .square{
     width: 10px;

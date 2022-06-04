@@ -40,6 +40,10 @@
     display: flex;
     flex-direction: column;
   }
+  .projectHeading{
+    padding: 2rem 1rem;
+    font-size: 5rem;
+  }
   .proj{
     width: 100%;
     height: 100%;
