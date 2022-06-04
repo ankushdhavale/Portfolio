@@ -11,7 +11,7 @@
   background-color: rgb(124, 86, 86);
 
   width: 100vw;
-  height: 100vh;
+  /* height: 100vh; */
 }
 .contactMeForm {
   box-shadow: 0rem 2rem 4rem #090202;
@@ -78,18 +78,23 @@ a::before {
 }
 
 @media screen and (max-width: 640px) {
+  .contactMeContainer{
+    overflow: hidden;
+    padding-bottom: 12%;
+  }
   .contactMeForm {
-    margin-top: 10%;
+    margin-top: 1%;
     width: 90%;
     margin-left: 5%;
     overflow: hidden;
+    margin-bottom: 2%;
   }
   .inputs {
     width: 90%;
   }
   .contactMeHeading{
       
-      padding: 5rem;
+      padding: 2rem;
   }
   .contactMeHeading p{
       
