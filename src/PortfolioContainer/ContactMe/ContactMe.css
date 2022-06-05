@@ -49,6 +49,10 @@
   margin: 1rem;
 }
 
+.inputs:hover{
+  border: .3rem solid rgb(30, 175, 237);
+}
+
 .submit-btn {
   color: rgb(8, 17, 25);
   transition: all 0.5s;
@@ -97,6 +101,7 @@ a::before {
     margin-bottom: 2%;
   }
   .inputs {
+    
     width: 90%;
     font-size: 3rem;
     padding: 0;
