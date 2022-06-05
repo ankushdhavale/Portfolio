@@ -35,10 +35,12 @@
   margin-left: 10%;
   border-radius: 2rem;
   padding-bottom: 2rem;
-  opacity: 70%;
+  opacity: 100%;
 }
 
 .inputs {
+  background-color: white;
+  color: #090202;
   border-radius: 2rem;
   font-size: 1.2rem;
   padding: 0.7rem 2rem;

@@ -4,18 +4,17 @@ import { MdMenu } from "react-icons/md";
 import "./Navbar.css";
 
 const Navbar = () => {
-
-    // change nav color when scrolling
-const[color,setColor]=useState(false)
-const changeColor=()=>{
-    if(window.scrollY>=90){
-        setColor(true)
-                       
-    }else{
-        setColor(false)
+  // change nav color when scrolling
+  const [color, setColor] = useState(false);
+  const changeColor = () => {
+    if (window.scrollY >= 90) {
+      setColor(true);
+    } else {
+      setColor(false);
     }
-}
-window.addEventListener( 'scroll',changeColor)
+  };
+  window.addEventListener("scroll", changeColor);
+  
   let [expanded, setExpanded] = useState(false);
 
   const toggleNavbar = () => {
@@ -29,7 +28,7 @@ window.addEventListener( 'scroll',changeColor)
   const navLinksState = expanded ? " expanded" : "";
 
   return (
-    <div className={color ? 'navbar navbar-bg' : 'navbar'}>
+    <div className={color ? "navbar navbar-bg" : "navbar"}>
       <div className="navbar__content content-container-fluid">
         <button
           className="navbar__menu"
