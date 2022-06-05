@@ -6,7 +6,13 @@ function Header() {
   return (
     <>
       <div className="header">
+      <a className="toggle-button">
+              <div className="bar"></div>
+              <div className="bar"></div>
+              <div className="bar"></div>
+          </a>
         <div className="pgLinkContainer">
+          
           <Link to="home" spy={true} smooth={true} offset={50} duration={700} className="pgLinks" href="#">
             Home
           </Link>

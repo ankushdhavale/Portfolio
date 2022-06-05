@@ -30,7 +30,7 @@
   font-family: cursive;
 }
 
-.resume-button {
+/* .resume-button {
   padding: 1rem 1.5rem;
   border-radius: 0.5rem;
   opacity: 70%;
@@ -42,6 +42,45 @@
 
   background-color: aqua;
   box-shadow: 0rem 5rem 10rem #050214;
+  transform: 1s ease;
+} */
+.resume-button {
+  
+  width: 120px;
+  height: 60px;
+  border: 2px solid white;
+  background-color: transparent;
+  border-radius: 10px;
+  color: white;
+  cursor: pointer;
+  position: relative;
+}
+.resume-button:hover {
+  
+
+  background-color: rgb(236, 249, 249);
+  /* box-shadow: 0rem 5rem 10rem #050214; */
+  color: black;
+  transform: 1s ease;
+}
+.resume-button::before {
+  content: "";
+  position: absolute;
+  left: 0%;
+  top: 50px;
+  background: transparent;
+  height: 50%;
+  width: 100%;
+  transform: perspective(1em)
+  rotateX(40deg) scale(1,0.35);
+  filter: blur(8px);
+  transition: 1s ease;
+
+}
+
+.resume-button:hover::before{
+  background: white;
+  top: 70px;
 }
 
 .profile-role-tagline {
@@ -55,10 +94,28 @@
 }
 
 .icons {
+  margin-bottom: 2rem;
   color: rgb(207, 208, 234);
   padding: 1rem 1rem;
-  font-size: 1.5rem;
+  font-size: 1.7rem;
+  animation: animate 1s infinite linear;
 }
+
+@keyframes animate {
+  0%,100%{
+    color: rgb(251, 193, 224);
+  }
+  25%{
+    color: rgb(159, 226, 248);
+  }
+  50%{
+    color: rgb(215, 250, 181);
+  }
+  75%{
+    color: rgb(247, 247, 188);
+  }
+}
+
 .icons:hover {
   opacity: 70%;
   color: rgb(65, 138, 138);
