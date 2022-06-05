@@ -6,7 +6,7 @@ import vid2 from "../../assets/Home/vid2.mp4";
 
 export default function Profile() {
   return (
-    <div className="profile-container">
+    <div className="profile-container" id="home">
       
       <div className="profile-parent">
         <div className="profile-details">

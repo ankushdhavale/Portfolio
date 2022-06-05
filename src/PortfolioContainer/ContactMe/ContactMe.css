@@ -78,6 +78,10 @@ a::before {
   font-size: 3rem;
 }
 
+.message {
+  height: 8rem;
+}
+
 @media screen and (max-width: 640px) {
   .contactMeContainer{
     overflow: hidden;
@@ -92,6 +96,8 @@ a::before {
   }
   .inputs {
     width: 90%;
+    font-size: 3rem;
+    padding: 0;
   }
   .contactMeHeading{
       
@@ -101,11 +107,15 @@ a::before {
       
       font-size: 4rem;
   }
+  .message{
+    height: 10rem;
+  }
+  .submit-btn{
+    font-size: 3rem;
+  }
   
 }
-.message {
-  height: 8rem;
-}
+
 @media screen and (max-width: 241px) {
   .contactMeForm {
     margin-top: 2%;
@@ -122,6 +132,7 @@ a::before {
       
       font-size: 1rem;
   }
+ 
   
 }
 

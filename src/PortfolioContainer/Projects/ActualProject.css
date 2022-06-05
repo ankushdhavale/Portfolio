@@ -172,6 +172,9 @@
 		height: auto;
 		/* aspect-ratio: 16/3; */
 	}
+	.details{
+		font-size: 3rem;
+	}
 }
     
 
