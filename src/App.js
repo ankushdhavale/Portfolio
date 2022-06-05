@@ -7,12 +7,14 @@ import MySkills from './PortfolioContainer/MySkills/MySkills';
 import Projects from './PortfolioContainer/Projects/Projects';
 import Footer from './PortfolioContainer/Footer/Footer';
 import Header from './PortfolioContainer/Header/Header';
+import Navbar from './PortfolioContainer/Header/Navbar';
 
 
 function App() {
   return (
     <div className="App">
-      <Header></Header>
+      {/* <Header></Header> */}
+      <Navbar></Navbar>
      <Profile></Profile>
      <AboutMe></AboutMe>
      <MySkills></MySkills>
