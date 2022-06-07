@@ -14,7 +14,7 @@ function AboutMe() {
         <div data-aos="fade-up" className="aboutMeParagraph ">
           <p >
             {" "}
-            Myself Atharva kutwal .I am a second-year student pursuing IT
+            I am Atharva kutwal .I am a second-year student pursuing IT
             engineering from D. Y. Patil College of Engineering, Akurdi, Pune. I
             am a full stack Web Development Enthusiast and a Competitive
             Programmer .Also I'm 5⭐coder on Hackerrank. Apart from my
