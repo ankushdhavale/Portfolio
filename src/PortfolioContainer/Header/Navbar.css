@@ -197,6 +197,7 @@
 }
 
 .navbar-links a {
+	font-size: 2rem;
 	color: white;
 	text-decoration: none;
 	margin: 0;
