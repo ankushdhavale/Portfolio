@@ -48,9 +48,9 @@ export default function Profile() {
                 <Typical
                   loop={Infinity}
                   steps={[
-                    "Web Developer 💻",
-                    2000,
-                    "Aspiring Full Stack Developer ..🚀",
+                    
+                    
+                    "Full Stack Web Developer ..💻",
                     2000,
                     "Competitive Programmer ⚡",
                     2000,
